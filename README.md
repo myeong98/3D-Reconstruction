@@ -65,3 +65,13 @@ python demo.py --imagedir=data/mav0/cam0/data --calib=calib/euroc.txt --t0=150
 ```
 python demo.py --imagedir=data/rgbd_dataset_freiburg3_cabinet/rgb --calib=calib/tum3.txt
 ```
+
+## Training (학습은 안해봤어요...)
+
+*****
+
+## Execution Results in LAB
+
+```python camera_topic.py```를 실행하고 rosbag을 통해 저장 후 .png 파일로 변환 후 실행.
+
+아래의 사진은 demo를 실행하여 나온 결과.
