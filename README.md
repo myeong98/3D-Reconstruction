@@ -44,11 +44,7 @@ cd ~/droid/src/DROID-SLAM/
 ./tools/download_sample_data.sh
 ```
 
-다운받은 sample 중에 하나레 대해 데모를 실행. 실헹 중에는 s키를 눌러 increase the filtering threshold를 하고, a키를 눌러 decrease the filtering threshold를 할 수 있음. 그리고 full resolution depth maps으로 3D-Reconstruction을 하려면 
-```
---reconstruction_path flag
-```
-를 사용
+다운받은 sample 중에 하나레 대해 데모를 실행. 실헹 중에는 s키를 눌러 increase the filtering threshold를 하고, a키를 눌러 decrease the filtering threshold를 할 수 있음. 그리고 full resolution depth maps으로 3D-Reconstruction을 하려면 ```--reconstruction_path flag```를 사용
 
 ```
 python demo.py --imagedir=data/abandonedfactory --calib=calib/tartan.txt --stride=2
