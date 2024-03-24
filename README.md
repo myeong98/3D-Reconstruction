@@ -34,7 +34,7 @@ python setup.py install
 
 1. [droid.pth](https://drive.google.com/file/d/1PpqVt1H4maBa_GbPJp4NwxRsd9jk-elh/view?pli=1)를 다운받은 후
 ```
-cd ~/droid/src/DROID-SLAM/
+cd ~/DROID-SLAM/
 ```
 폴더에 넣기.
 
